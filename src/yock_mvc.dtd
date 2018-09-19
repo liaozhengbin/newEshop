@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 根节点定义 -->
+<!ELEMENT mvc-config (controller-class?,controller-mappings?)>
+
+<!-- 元素节点定义 -->
+<!ELEMENT controller-class (controller*)>
+<!ELEMENT controller-mappings (action*)>
+<!ELEMENT controller EMPTY>
+<!ELEMENT action EMPTY>
+
+<!-- 属性定义 -->
+<!ATTLIST controller 
+	name CDATA #REQUIRED
+	className CDATA #REQUIRED
+>
+<!ATTLIST action 
+	name CDATA #REQUIRED 
+	path CDATA #REQUIRED
+>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE  mvc-config  PUBLIC "-//yock_mvc.dtd//EN"   "http://182.61.15.145/xml_mvc/yock_mvc.dtd">
+<mvc-config>
+
+	<controller-class>
+		<controller name="TestMvcController" className="cn.yunhe.eshop.controller.TestMvcController" />
+		<controller name="LoginMvcController" className="cn.yunhe.eshop.controller.LoginMvcController" />
+		<controller name="RegMvcController" className="cn.yunhe.eshop.controller.RegMvcController" />
+		<controller name="UserMvcController" className="cn.yunhe.eshop.controller.UserMvcController" />
+		<controller name="LoginMvcController" className="cn.yunhe.eshop.controller.LoginMvcController" />
+		<controller name="VerifyEmailServletMvc" className="cn.yunhe.eshop.controller.VerifyEmailServletMvc" />
+		<controller name="VerificationMvc" className="cn.yunhe.eshop.controller.VerificationMvc" />
+		<controller name="BookController" className="cn.yunhe.eshop.controller.BookController" />
+	</controller-class>
+	
+	<controller-mappings>
+		<action name="TestMvcController" path="/test/problem.action" />
+		<action name="TestMvcController" path="/test/sheng.action" />
+		<action name="TestMvcController" path="/test/shi.action" />
+		<action name="TestMvcController" path="/test/qu.action" />
+		<action name="LoginMvcController" path="/login/login.action" />
+		<action name="LoginMvcController" path="/login/exit.action" />
+		<action name="LoginMvcController" path="/login/validation.action" />
+		<action name="RegMvcController" path="/reg/login.action" />
+		<action name="RegMvcController" path="/reg/doGet.action" />
+		<action name="UserMvcController" path="/user/add.action" />
+		<action name="UserMvcController" path="/user/member.action" />
+		<action name="UserMvcController" path="/user/selectEmail.action" />
+		<action name="UserMvcController" path="/user/selectUserName.action" />
+		<action name="LoginMvcController" path="/login/login.action" />
+		<action name="LoginMvcController" path="/login/exit.action" />
+		<action name="LoginMvcController" path="/login/validation.action" />
+		<action name="VerifyEmailServletMvc" path="/verifyEmailServlet/service.action" />
+		<action name="VerificationMvc" path="/verification_controller/doGet.action" />
+		<action name="BookController" path="/book/list.action" />
+		<action name="BookController" path="/book/info.action" />
+		<action name="BookController" path="/book/history.action" />
+	</controller-mappings>
+		
+		
+</mvc-config>
